@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const url = "http://localhost:3001";
+const url = import.meta.env.VITE_API_URL;
 
 async function register(body) {
   try {
